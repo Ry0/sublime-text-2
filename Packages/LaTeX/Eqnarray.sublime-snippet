@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[\begin{eqnarray}
+\label{eq:${1:?}}
+   & = & \nonumber \\\\
+\label{eq:${2:?}}
+   & = &
+\end{eqnarray}]]></content>
+    <tabTrigger>eq</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>Eqnarray</description>
+</snippet>

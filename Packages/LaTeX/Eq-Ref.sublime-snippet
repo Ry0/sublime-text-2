@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[式\eqref{eq:${1:?}}
+]]></content>
+    <tabTrigger>eq</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>式参照</description>
+</snippet>

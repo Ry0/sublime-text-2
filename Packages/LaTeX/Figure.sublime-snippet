@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[Fig~\ref]]></content>
+    <tabTrigger>figure</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>Figure</description>
+</snippet>
