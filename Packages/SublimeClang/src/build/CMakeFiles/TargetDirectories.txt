@@ -1,0 +1,1 @@
+/home/ry0/.config/sublime-text-2/Packages/SublimeClang/src/build/CMakeFiles/cache.dir

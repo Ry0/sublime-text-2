@@ -1,0 +1,12 @@
+{
+	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+	"draw_white_space": "all",
+	"font_face": "Ricty",
+	"font_size": 12,
+	"highlight_line": true,
+	"line_padding_top": 4,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": false,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}

@@ -1,0 +1,4 @@
+    {
+         "workingdir": "/home/ry0/Desktop/c++/Average2",
+         "commandline": "gdb --interpreter=mi ./Average2"
+    }

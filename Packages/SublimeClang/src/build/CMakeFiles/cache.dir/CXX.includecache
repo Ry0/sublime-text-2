@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ry0/.config/sublime-text-2/Packages/SublimeClang/src/clang-c/Index.h
+sys/stat.h
+-
+time.h
+-
+stdio.h
+-
+
+/home/ry0/.config/sublime-text-2/Packages/SublimeClang/src/main.cpp
+clang-c/Index.h
+/home/ry0/.config/sublime-text-2/Packages/SublimeClang/src/clang-c/Index.h
+stdio.h
+-
+string
+-
+string.h
+-
+vector
+-
+map
+-
+algorithm
+-
+assert.h
+-
+memory
+-
+tr1/memory
+-
+

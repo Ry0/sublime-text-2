@@ -1,0 +1,48 @@
+[
+//mozc設定
+{ "keys": ["shift+space"], "command": "toggle_mozc" },
+
+//インデント整形
+{ "keys": ["alt+ctrl+r"], "command": "reindent", "args": { "single_line": false }},
+
+//clang-format
+{ "keys": ["ctrl+shift+c"], "command": "clang_format" },
+
+//color picker
+{ "keys": ["ctrl+alt+c"], "command": "color_pick" },
+
+//for SublimeClang
+{
+	"keys": ["f12"],
+	"command": "clang_goto_def",
+	"context": [
+	{"key": "clang_supported_language"}
+	]
+},
+{
+	"keys": ["ctrl+f12"],
+	"command": "clang_goto_implementation",
+	"context": [
+	{"key": "clang_supported_language"}
+	]
+},
+{
+	"keys": ["shift+f12"],
+	"command": "clang_go_back",
+	"context": [
+	{"key": "clang_supported_language"}
+	]
+}
+
+,{
+	"command": "gdb_step_into",
+	"context":[{"key": "gdb_running", "operator": "equal", "operand":true}],
+	"keys":["f8"]
+	},
+	{
+	"command": "gdb_step_out",
+	"context":[{"key": "gdb_running", "operator": "equal", "operand":true}],
+	"keys":["shift + f8"]
+}
+
+]
