@@ -1,6 +1,8 @@
 #Sublime Text 2のスニペット
 ここにない場合はここで  
 [LaTeXコマンド集](http://www.latex-cmd.com/)  
+ショートカットを打って`Tab`  
+改行して，先頭じゃないと補間が効かないかも  
 
 ##cas
 ```tex
@@ -46,7 +48,6 @@
 \begin{eqnarray}
 \label{eq:?}
    & = & \nonumber \\
-\label{eq:?}
    & = &
 \end{eqnarray}
 ```
@@ -64,7 +65,11 @@ Fig~\ref{fig:}
 ##figure
 ```tex
 \begin{figure}[htbp]
-  \includegraphics[clip,width=?cm]{filename.eps}
+  \begin{center}
+    \includegraphics[clip,width=?cm]{filename.eps}
+  \end{center}
+  \caption{title}
+  \label{fig:title}
 \end{figure}
 ```
 
@@ -130,7 +135,7 @@ Section~\ref{sec:}
 
 ##table
 ```tex
-Table~\ref{tab:}
+Tab~\ref{tab:}
 ```
 
 ##tab

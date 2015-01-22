@@ -2,7 +2,6 @@
     <content><![CDATA[\begin{eqnarray}
 \label{eq:${1:?}}
    & = & \nonumber \\\\
-\label{eq:${2:?}}
    & = &
 \end{eqnarray}]]></content>
     <tabTrigger>eq</tabTrigger>
