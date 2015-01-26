@@ -2,5 +2,5 @@
     <content><![CDATA[Tab~\ref]]></content>
     <tabTrigger>table</tabTrigger>
     <scope>text.tex.latex</scope>
-    <description>Table</description>
+    <description>Table参照</description>
 </snippet>
