@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+{% flickr_image ${1:id} ${2:size[(o)original,(b)1024,(z)640,(n)320,m(240),t(100),q(150square),s(75square)]} ${3:class} "${4:title}" %}  
+]]></content>
+  <tabTrigger>%flickr</tabTrigger>
+  <scope>text.html.markdown</scope>
+</snippet>

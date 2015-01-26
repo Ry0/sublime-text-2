@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<div class='instagram-container'>
+  <iframe src='${1:URL}embed/' frameborder='0' scrolling='no' allowtransparency='true'></iframe>
+</div>
+]]></content>
+	<tabTrigger>%instagram</tabTrigger>
+	<scope>text.html.markdown</scope>
+</snippet>
